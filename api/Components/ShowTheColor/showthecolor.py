@@ -15,6 +15,7 @@ Builder.load_string("""
     height:275
     FitImage:
         source:"asset/image/Back.jpg"
+        radius:10
 """)
 
 class ShowTheColor(MDBoxLayout):

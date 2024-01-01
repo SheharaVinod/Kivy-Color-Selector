@@ -3,6 +3,7 @@ from kivy.config import Config
 Config.set("graphics", "height", "600")
 Config.set("graphics", "width", "400")
 Config.set("graphics", "resizable", "0")
+Config.set('input', 'mouse', 'mouse,disable_multitouch')
 
 from kivymd.app import MDApp
 from kivy.properties import ListProperty
