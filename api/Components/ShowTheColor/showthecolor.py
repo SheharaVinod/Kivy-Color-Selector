@@ -11,8 +11,8 @@ Builder.load_string("""
             size:self.size
             pos:self.pos
     radius:10
-    size_hint_y:None
-    height:275
+    #size_hint_y:None
+    #height:275
     FitImage:
         source:"asset/image/Back.jpg"
         radius:10

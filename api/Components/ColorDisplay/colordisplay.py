@@ -5,6 +5,7 @@ from kivy.lang.builder import Builder
 Builder.load_string("""
 <ColorDisplay>
     app:app
+    adaptive_height:True
     GridLayout:
         canvas.before:
             Color:
@@ -15,7 +16,7 @@ Builder.load_string("""
                 radius:[10]
         cols:2
         row_force_default:True
-        row_default_height:50
+        row_default_height:40
         size_hint_y:None
         height:self.row_default_height*4
         MDLabel:
